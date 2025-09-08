@@ -1,0 +1,9 @@
+.mouse-over
+{
+    border: 1px solid blue;
+    max-width: 300px;
+}
+
+main{
+    border: 1px solid red;
+}
