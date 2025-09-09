@@ -47,7 +47,9 @@ const grumpyCountDisplay = document.querySelector("#grumpy-count");
 // TODO: Select sleepy count display
 const sleepyCountDisplay = document.querySelector("#sleepy-count"); 
 
-// TODO: Element Content Manipulation
+
+
+// CHANGE CAT'S MOOD
 function changeCatMood(button, newMood)
 {
   // TODO: Find the parent cat card
@@ -80,7 +82,9 @@ function changeCatMood(button, newMood)
   updateMoodStatistics();
 }
 
-// TODO: DOM Structure Manipulation
+
+
+// ADD NEW CAT
 function addNewCat()
 {
   // TODO: Create a new cat card element using createElement()
@@ -124,7 +128,10 @@ function addNewCat()
   updateMoodStatistics();
 }
 
-// TODO: Add cat to the beginning of the list
+
+
+
+// ADD CAT TO START OF LINE
 function addCatToStart() {
   // TODO: Create a new cat card element using createElement()
   const newCatCard = document.createElement("div"); // TODO: Create div element
